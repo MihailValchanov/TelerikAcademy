@@ -1,0 +1,68 @@
+body > div{
+	border:1px solid black;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 14px;
+	padding: 9px;
+	padding-top: 23;
+	box-sizing: border-box;
+    width: 427px;
+    height: 391px;
+}
+body > div > div{
+	border: 1px solid black;
+	box-sizing: border-box;
+	width: 410px;
+	height: 353px;
+
+}
+table{
+	box-sizing: border-box;
+	/*width: 386px;*/
+	height: 310px;
+}
+.singlecell{
+	text-align: center;
+	box-sizing: border-box;
+	width: 36px;
+	height: 28px;
+	border-radius: 3px
+	
+}
+.dublecell{
+	text-align: center;
+	border-radius: 3px
+}
+.colspantenone{
+	box-sizing: border-box;
+	width: 386px;
+	height: 50px;
+	text-align: right;
+	vertical-align:bottom;
+	font-size: 30px;
+	font-family: Consolas;
+	border-radius: 3px
+}
+.colspantentwo{
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 386px;
+	height: 60px;
+	font-family: Consolas;
+	font-size: 13px;
+
+
+}
+.special{
+	box-sizing: border-box;
+	width: 420px;
+	height: 62px;
+	text-align: right;
+    padding-right: 13px
+}
+.radio{
+	box-sizing: border-box;
+	border-radius: 3px;
+	width: 75px;
+	height: 93px;
+}

@@ -1,0 +1,164 @@
+html, body{
+	font-family: Consolas;
+}
+
+body *{
+	padding:0;
+	margin:0;
+}
+
+.border {
+	border:1px solid #77839B;
+	border-radius: 2px;
+}
+.calculator {
+	width: 450px;
+	height: 430px;
+	padding: 9px;
+	box-sizing: border-box;
+
+}
+
+.top-bar {
+	height: 20px;
+}
+
+.controls{
+	font-size:0;
+	width: 433px;
+	height: 392px;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 11px;
+	box-sizing: border-box;
+}
+
+[class*="display"], .menu,.radi-boxes,.small-buttons{
+	font-size:13px;
+}
+
+h1{
+	font-size:13px;
+}
+
+.display {
+	height: 55px;
+	margin-top: 11px;
+	box-sizing: border-box;
+}
+
+.additional-display {
+	height: 68px;
+	margin-top: 6px;
+	width: 100%;
+
+}
+
+.menu {
+	height: 20px;
+	box-sizing: border-box;
+	margin-left: -11px;
+    margin-right: -11px;
+    margin-top: -1px
+}
+
+.buttons {
+	margin-top: 6px;
+	height: 210px;
+
+}
+
+.radio-boxes {
+	width:77px;
+	height: 209px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.radio-boxes>div{
+	border:1px solid #77839B;
+	height: 105px;
+	width: 77px;
+	font-size: 13px;
+	margin-right:6px;
+	margin-bottom:6px;
+	box-sizing: border-box;
+	/*margin-right: 6px;*/
+}
+
+.small-buttons {
+	display: inline-block;
+	width:336px;
+	height: 208px;
+	font-size: 0px;
+	box-sizing: border-box;
+	margin-left: 88px;
+	margin-top: -208px;
+	vertical-align: top;
+}
+
+#equally {
+	width: 35px;
+	height: 69px;
+	display: inline-block;
+}
+
+#zero {
+	width: 77px;
+	height: 31px;
+	display: inline-block;
+}
+
+.last-col {
+	margin-top: -38px;
+	vertical-align: top;
+}
+
+.small-buttons>div{
+	display: inline-block;
+	font-size: 13px;
+	width: 35px;
+	height: 31px;
+	box-sizing: border-box;
+	margin-right:6px;
+	margin-bottom:6px;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 3px;
+}
+
+.window-buttons {
+	display: inline-block;
+	margin-left: 314px;
+	margin-top: -25px;
+	vertical-align: top;
+	font-size: 0px;
+
+}
+
+.window-buttons > div {
+	margin-right: 0px;
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 15px;
+	text-align: center;
+}
+
+.window-buttons > div:first-child {
+	width: 30px;
+	height: 19px;
+	border-bottom-left-radius: 8px;
+	font
+}
+
+.window-buttons > div:nth-of-type(2) {
+	width: 30px;
+	height: 19px;
+}
+
+.window-buttons > div:nth-of-type(3) {
+	width: 50px;
+	height: 19px;
+	border-bottom-right-radius: 8px;
+}

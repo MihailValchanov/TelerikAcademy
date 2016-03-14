@@ -1,0 +1,29 @@
+body > ul {
+	position: static;
+}
+
+ul > li:hover > ul {
+	display: block;
+}
+
+li > ul > li > a {
+	color: #646464;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+ul > li > ul {
+	display: none;
+}

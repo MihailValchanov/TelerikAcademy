@@ -1,0 +1,98 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+header {
+	width: 813px;
+	border-bottom: 1px solid #5D5D5D;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	text-align: center;
+
+}
+
+.mother {
+	border:1px solid #5D5D5D;
+	width: 869px;
+	height: 635px;
+	border-radius: 5px;
+}
+
+.content {
+	width: 563px;
+	height: 535px;
+	border:1px solid #5D5D5D;
+	display: inline-block;
+	margin-left: 14px;
+	padding-left: 15px;
+}
+
+fieldset {
+	display: inline-block;
+	width: 267px;
+	height: 159px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+fieldset > div {
+	/*border:1px solid black;*/
+	display: inline-block;
+	text-align: center;
+	padding:10px 5px 5px 5px;
+}
+
+span {
+	display: block;
+	margin-top: 10px;
+}
+
+img {
+	width: 138px;
+	height: 80px
+}
+
+li {
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+
+
+
+}
+
+a {
+	color: #07AEEE;
+}
+
+legend {
+	text-align: center;
+}
+
+.range {
+	display: inline-block;
+	/*border: 1px solid black;*/
+	/*width: 290px;
+	height: 530px;*/
+	vertical-align: top;
+	padding-top: 75px;
+	padding-left: 33px;
+
+}
+
+.range label, input {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	width: 216px;
+}
+
+.range label {
+	margin-top: 40px;
+}
+
+.range  input {
+	margin-top: 20px;
+}

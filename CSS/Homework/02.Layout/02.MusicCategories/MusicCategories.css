@@ -1,0 +1,57 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.parant {
+	width: 421px;
+	/*border: 1px solid black;*/
+	height: 539px;
+	background-color: #EDEDED;
+	border-radius: 8px;
+	box-sizing: border-box;
+	font-family: Arial;
+	font-size: 13px;
+	position: absolute;
+}
+
+h1 {
+	font-size: 17px;
+	font-weight: normal;
+	padding-left: 16px;
+}
+
+.parant > div {
+	border:1.5px solid #AEAEAE;
+	background-color: white;
+	width: 400px;
+	height: 120px;
+	padding: 16px;
+	box-sizing: border-box;
+	margin: 37px 10px 37px 13px;
+	/*position: absolute;*/
+
+
+}
+
+img {
+	float: left;
+	padding-right: 16px;
+	display: inline;
+
+}
+
+	.buttons {
+	display:inline-block;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	
+}
+
+.first {
+	margin-top: 29px;
+}
+.second, .third {
+	margin-top: 15px;
+}

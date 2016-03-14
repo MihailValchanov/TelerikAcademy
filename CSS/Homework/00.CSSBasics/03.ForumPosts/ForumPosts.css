@@ -1,0 +1,46 @@
+body{
+	background-color: #B0B0B0 
+}
+header > h1 {
+	font-size: 50px;
+	text-align: center;
+	color: #FFFFCC
+
+}
+nav{
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	font-size: 25px;
+	text-decoration-line: none;
+
+}
+ul > li > a{
+	text-decoration: none;
+	color: white
+}
+.current{
+	background-color: #E0E0E0
+}
+li:last-of-type{
+	text-decoration: underline;
+}
+section > article > header > h1 {
+	text-align: left;
+	font-size: 30px
+}
+footer > p > a {
+	text-decoration: none;
+	color: black
+}
+footer > p > a:hover{
+	text-decoration: underline;
+}
+footer > p{
+	font-size: 14px
+}
+body > footer{
+	text-align: center;
+}
+

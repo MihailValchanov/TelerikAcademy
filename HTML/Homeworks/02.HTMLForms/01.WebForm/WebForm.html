@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Form</title>
+</head>
+<body>
+	<form>
+	<table cellspacing="0" border="1">
+		<tr>
+			<td align="right"><strong>Last Name</strong></td>
+			<td colspan="3"><input size="40" type="text" name="LN"></input>&nbsp&nbsp&nbsp&nbsp</td>
+		</tr>
+		<tr>
+			<td align="right"><strong>First Name</strong></td>
+			<td colspan="3"><input size="40" type="text" name="myname"></input></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>Addres</strong></td>
+			<td colspan="3"><textarea name="Comments"></textarea></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>City</strong></td>
+			<td><input size="20" type="text" name="City"></input></td>
+			<td><strong>State</strong></td>
+			<td><input size="8" type="text" name="State"></input></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>Zip/Code Postal</strong></td>
+			<td colspan="3"><input size="15" type="text" name="Zip/Code Postal"></input></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>Country</strong></td>
+			<td colspan="3"><select name="gender"><option value="1" selected="selected">Bulgaria</option><option value="2">Kazahstan</option> <option value="3">Mahsuda</option></select></td>
+		</tr>
+		<tr>
+			<td width="100" align="right"><strong>Phone(country code, area code, number)</strong></td>
+			<td colspan="3">(+<input size="6" type="text" name="country code"></input>)<input size="6" type="text" name="area code">-<input size="14" type="text" name="number"></input></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>E-mail</strong></td>
+			<td colspan="3"><input size="40" type="email" required="true" pattern=""></input></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>Birth date</strong></td>
+			<td colspan="3">Month<input size="1" type="text" name="Month"></input>Day<input size="1" type="text" name="Day"></input>Year<input size="3" type="text" name="Year"></input></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>Gender</strong></td>
+			<td colspan="3"><select name="gender"><option value="1" selected="selected">Male</option><option value="2">Female</option></select></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>Starting date</strong></td>
+			<td colspan="3"><label for="spr">Spring 2006</label><input type="radio" value="spring 2006" name="StrDate" id="spr"></input><label for="sum">Summer 2006</label><input type="radio" value="summer 2006" name="StrDate" id="sum"></input></td>
+		</tr>
+		<tr>
+			<td align="right"><strong>Comments/Questions</strong></td>
+			<td colspan="3"><textarea name="More information"></textarea></td>
+		</tr>
+		<tr>
+			<td align="center" colspan="4"><input type="submit" name="submit" value="Submit"></input><input type="reset" value="Clear the form"></input></td>
+		</tr>
+	</table>
+	<form />
+</body>
+</html>

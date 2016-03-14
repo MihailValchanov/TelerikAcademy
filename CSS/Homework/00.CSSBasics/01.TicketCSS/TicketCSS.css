@@ -1,0 +1,28 @@
+table{
+	background-color: #585858;
+	font-family: Arial;
+	width: 304px;
+	height: 205px;
+	font-size: 11px;
+}
+#GreenPoint{
+	color: #70B37A
+}
+#TID {
+	font-size: 17px;
+}
+#LastAction, #TimeLeft, #TID{
+	color: #ABBABA;
+}
+.info{
+	color: white;
+}
+#Name, #Email, #Post{
+	color: #D9D188;
+}
+#NoActive{
+	color: #F90711;
+}
+#Status{
+	color: #E26926;
+}
